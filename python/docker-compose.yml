@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  cronjob:
+    build: .
+    container_name: python-cronjob
+    volumes:
+      - .:/cronjob
+    command: python cron_run.py
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
