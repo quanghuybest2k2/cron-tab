@@ -23,12 +23,12 @@ docker exec -it cron-job bash
 Detailed Explanation
 `* * * * *`
 
-`*`: Theo thứ tự: Phút: (0-59), Giờ: (0-23), Ngày trong tháng: (1-31), Tháng: (1-12), và Ngày trong tuần: (0-6), 0 là Chủ nhật.
+`*`: Theo thứ tự: Phút: (0-59), Giờ: (0-23), Ngày trong tháng: (1-31), Tháng: (1-12), và Ngày trong tuần: (0-6), 0 là Chủ nhật. <br/>
+
 `python3 /app/hello.py`:
+Executes the Python file located at /app/hello.py.<br/>
 
-Executes the Python file located at /app/hello.py.
 `>>`:
-
 Appends to the end of the file without overwriting.
 
 ## config
